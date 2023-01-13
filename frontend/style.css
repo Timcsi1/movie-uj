@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+  color: rgb(255, 255, 255);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background-color: #242d38;
+  font-family: "Poppins";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  width: 100%;
+  height: 60px;
+  color: #efd592;
+  padding: 0 20px;
+  border-bottom: #efd592 1px solid;
+}
+header p {
+  font-size: 36px;
+}
+
+.cards-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 90px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-weight: 400;
+}
+.cards-container .card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  padding: 50px;
+  background-color: #efd592;
+  color: #242d38;
+}
+.cards-container .card .number {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #242d38;
+  border: 1px solid #efd592;
+  color: #efd592;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container .card .title {
+  font-size: 36px;
+  min-height: 100px;
+}
+.cards-container .card .sub {
+  font-size: 18px;
+  border-bottom: 2px solid #242d38;
+  padding-bottom: 20px;
+}
+.cards-container .card button {
+  width: 75%;
+  height: 60px;
+  font-size: 14px;
+  color: #efd592;
+  background-color: #242d38;
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #efd592;
+}
+.cards-container .card .text {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}/*# sourceMappingURL=style.css.map */
